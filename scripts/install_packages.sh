@@ -42,7 +42,7 @@ echo ""
 
 # install packages for tensorflow-based strategies (MacOS-specific)
 
-if [[ $(prompt_user "Install tensorflow packages?: ") -eq 1 ]]; then
+if [[ $(prompt_user "Install default tensorflow packages?: ") -eq 1 ]]; then
 
   # check whether this uses an Apple CPU
   cpu_brand=$(sysctl -n machdep.cpu.brand_string)
